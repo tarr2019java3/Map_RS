@@ -130,15 +130,13 @@ public class Main {
         System.out.println(map);
         System.out.println("");
 
-       // Map<Integer, String> map = new HashMap<Integer, String>();
         for (Map.Entry<School, List<Student>> entry : map1.entrySet()) {
             System.out.println("Klucz: " + entry.getKey().getCity() + "  " + entry.getKey().getName());
-            System.out.println( " Students: " + entry.getValue().toString());
+            for (int i=0; i < entry.getValue().size();  i++ ){
+                System.out.println( " Students: " + entry.getValue().toString());
+            }
+
         }
-
-        System.out.println();
-
-
 
     }
 }

@@ -30,6 +30,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return '\n' + "    " +  name + ",   " + lastname + '\n';
+        return '\n' + "    " +  name + ",   " + lastname;
     }
 }
