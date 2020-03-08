@@ -14,4 +14,6 @@ public class Generyka <T> {
     public void setField(T field) {
         this.field = field;
     }
+
+
 }
