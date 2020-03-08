@@ -1,15 +1,15 @@
 package pl.sda.map.school;
 
-public class school {
+public class School {
     String name;
     String city;
 
-    public school(String name, String city) {
+    public School(String name, String city) {
         this.name = name;
         this.city = city;
     }
 
-    public school() {
+    public School() {
     }
 
     public String getName() {
@@ -27,4 +27,5 @@ public class school {
     public void setCity(String city) {
         this.city = city;
     }
+
 }
